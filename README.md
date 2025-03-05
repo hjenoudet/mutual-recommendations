@@ -33,3 +33,6 @@ This repository contains code and data for a homework project called **Mutual Re
 
 # Contributing
 If you’d like to contribute or report any issues, please open a Pull Request or file an Issue on this repository.
+
+# Acknowledgments
+I would like to thank Professor Mike Palazzolo (Assistant Professor of Marketing, UC Davis Graduate School of Management, Research Affiliate, Center for Poverty & Inequality Research) for their guidance and for allowing me to share this project. Their insights and support were invaluable in completing this analysis.
