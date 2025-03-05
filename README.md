@@ -4,7 +4,7 @@ This repository contains code and data for a homework project called **Mutual Re
 
 ## Project Structure
 
-- **data/**: Contains your data file `HW4.Rdata`.
+- **data/**: Contains your data file `mutual_recommendations.Rdata`.
 - **scripts/**: Contains the main R script `mutual_recommendations.R`.  
 - **README.md**: Project description, instructions, references, etc.
 - **requirements.txt**: Basic R requirements (or you can list out required R packages if using any).
@@ -19,17 +19,17 @@ This repository contains code and data for a homework project called **Mutual Re
 
 2. **Open R (or RStudio) and set your working directory to the repository root, for example:**
    ```{r}
-   setwd("path/to/Mutual-Recommendations")
+   setwd("path/to/mutual-recommendations")
    ```
 3. **Load the script**
    ```{r}
    source("scripts/mutual_recommendations.R")
    ```
 ## Project Details 
-- **Data**: The HW4.Rdata file is loaded in the script, which contains the men’s and women’s preference matrices (Liked_M_F and Liked_F_M).
+- **Data**: The `mutual_recommendations.Rdata` file is loaded in the script, which contains the men’s and women’s preference matrices (Liked_M_F and Liked_F_M).
 - **Core Function**: calculate_liking_scores(), which calculates weighted liking scores by matching the sign of correlation to likes/dislikes.
 - **Correlation Threshold**: By default, correlations between -0.15 and 0.15 are set to zero to remove weak associations.
-- **Results**: The script sums the liking scores from each side to yield a mutual recommendation score, e.g., (Anna + Fiyero), (Elphaba + Kristoff), etc.
+- **Results**: The `mutual_recommendations.R` script sums the liking scores from each side to yield a mutual recommendation score, e.g., (Anna + Fiyero), (Elphaba + Kristoff), etc.
 
 ## Contributing
 If you’d like to contribute or report any issues, please open a Pull Request or file an Issue on this repository.
