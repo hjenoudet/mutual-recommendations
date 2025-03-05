@@ -1,0 +1,3 @@
+# Requirements (for R-based code):
+# 1. R >= 4.0.0
+# 2. No additional CRAN packages required beyond base R
