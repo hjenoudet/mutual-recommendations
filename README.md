@@ -6,7 +6,7 @@ This repository contains code and data for a homework project called **Mutual Re
 
 - **data/**: Contains your data file `mutual_recommendations.Rdata`.
 - **scripts/**: Contains the main R script `mutual_recommendations.R`.  
-- **README.md**: Project description, instructions, references, etc.
+- **README.md**: How to Run, Project details, Contributing, Acknowledgements. 
 - **requirements.txt**: Basic R requirements (or you can list out required R packages if using any).
 
 ## How to Run
