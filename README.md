@@ -26,10 +26,10 @@ This repository contains code and data for a homework project called **Mutual Re
    source("scripts/mutual_recommendations.R")
    ```
 # Project Details 
-Data: The HW4.Rdata file is loaded in the script, which contains the men’s and women’s preference matrices (Liked_M_F and Liked_F_M).
-Core Function: calculate_liking_scores(), which calculates weighted liking scores by matching the sign of correlation to likes/dislikes.
-Correlation Threshold: By default, correlations between -0.15 and 0.15 are set to zero to remove weak associations.
-Results: The script sums the liking scores from each side to yield a mutual recommendation score, e.g., (Anna + Fiyero), (Elphaba + Kristoff), etc.
+- **Data**: The HW4.Rdata file is loaded in the script, which contains the men’s and women’s preference matrices (Liked_M_F and Liked_F_M).
+- **Core Function**: calculate_liking_scores(), which calculates weighted liking scores by matching the sign of correlation to likes/dislikes.
+- **Correlation Threshold**: By default, correlations between -0.15 and 0.15 are set to zero to remove weak associations.
+- **Results**: The script sums the liking scores from each side to yield a mutual recommendation score, e.g., (Anna + Fiyero), (Elphaba + Kristoff), etc.
 
 # Contributing
 If you’d like to contribute or report any issues, please open a Pull Request or file an Issue on this repository.
